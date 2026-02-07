@@ -10,7 +10,7 @@ Large artifacts are published as **GitHub Release assets** (not tracked in git h
 
 ## How to verify a bundle
 1) Download the bundle `.zip` and its `.zip.sha256` from the latest Release.
-2) Verify:
+2) Verify (run from the directory containing the downloaded files):
    - `shasum -a 256 -c <bundle>.zip.sha256`
 3) Unzip and verify per-pack:
    - `shasum -a 256 -c checksums.sha256` (inside each pack directory)
