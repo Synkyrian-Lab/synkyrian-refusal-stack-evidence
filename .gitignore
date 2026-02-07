@@ -1,0 +1,4 @@
+*.zip
+*.zip.sha256
+packs/*.zip
+packs/*.zip.sha256
